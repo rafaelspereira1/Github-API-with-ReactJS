@@ -1,10 +1,10 @@
 import React, { Children } from 'react'
 
-function Layout({Children}) {
+function Layout({children}) {
     return (
         <section>
             <header>Header</header>
-            {Children}
+            {children}
         </section>
     )
 }
