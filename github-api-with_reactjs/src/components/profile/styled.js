@@ -17,7 +17,15 @@ export const WrapperStatusCount = styled.div`
 export const WrapperStatusUsername = styled.div`
   display: flex;
   align-items: flex-start;
-  align-items: center
+  align-items: center;
+  margin-top: 8px;
+  h3 {
+    margin-right: 8px;
+  }
+  a{
+    color: blue;
+    font-weight: bold;
+  }
 `;
 
 export const WrapperInfoUser = styled.div`
@@ -27,9 +35,23 @@ export const WrapperInfoUser = styled.div`
   align-items: flex-start;
   justify-content: space-between;
   margin-left: 8px;
+  height: 200px;
+
+  h4 {
+    margin: 8px;
+    font-size: 16px;
+    font-weight:bold;
+  }
 
   h3 {
-    margin: 8px;
+    /* margin: 8px; */
+    font-size: 18px;
+    font-weight:bold;
+  }
+
+  h1 {
+    font-size: 22px;
+    font-weight:bold;
   }
 `;
 
