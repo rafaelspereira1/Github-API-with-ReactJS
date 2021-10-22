@@ -4,8 +4,8 @@ import * as S from "./styled";
 const Profile = () => {
     return (
 <S.Wrapper>
-   <img src="https://avatars.githubusercontent.com/u/90010200?v=4" alt="Avatar of User"></img>
-   <div>
+   <S.WrapperImage src="https://avatars.githubusercontent.com/u/90010200?v=4" alt="Avatar of User"></S.WrapperImage>
+   <S.WrapperInfoUser>
    <div>
       <h1>Rafael Pereira</h1>
       <S.WrapperStatusUsername>
@@ -27,7 +27,7 @@ const Profile = () => {
          <span>5</span>
       </div>
    </S.WrapperStatusCount>
-   </div>
+   </S.WrapperInfoUser>
 </S.Wrapper>
     );
     };
